@@ -26,27 +26,27 @@ Introduction to Python, NumPy, Matplotlib, Pandas, and Seaborn. Essential librar
 ### Week 1: Lexicon-Based Sentiment Analysis
 Learn the fundamentals of sentiment analysis using lexicon-based approaches. Build a VADER sentiment analyzer and evaluate its performance on the Financial PhraseBank dataset. Understand evaluation metrics (F1-score, precision, recall) and preprocessing techniques for financial text.
 
-- [Week 1 Instructions](./Week%201/README.md)
+- [Week 1 Instructions](./Week1/README.md)
 
 ### Week 2: Supervised Learning for Sentiment Classification
 Implement machine learning models for sentiment classification. Learn feature extraction techniques (Bag-of-Words, TF-IDF) and train three different models (Logistic Regression, Naive Bayes, K-Nearest Neighbors). Perform hyperparameter tuning using GridSearchCV and cross-validation.
 
-- [Week 2 Instructions](./Week%202/README.md)
+- [Week 2 Instructions](./Week2/README.md)
 
 ### Week 3: Deep Learning & Transformer Models
 Transition to deep learning using pre-trained transformer models. Load FinBERT (a BERT model specifically trained on financial text), perform zero-shot inference, and fine-tune it on the Financial PhraseBank dataset. Compare all five approaches from Weeks 1-3.
 
-- [Week 3 Instructions](./Week%203/README.md)
+- [Week 3 Instructions](./Week3/README.md)
 
 ### Week 4: Real Data Integration & Stock Price Correlation
 Test your sentiment analysis systems on real financial data. Integrate stock price data from yfinance with financial news from Kaggle. Calculate sentiment-price correlations to validate whether lab results predict real market movements. Discover which sentiment method best predicts stock price changes.
 
-- [Week 4 Instructions](./Week%204/README.md)
+- [Week 4 Instructions](./Week4/README.md)
 
 ### Week 5: Backtesting Trading Strategies & Project Conclusion
 Build a complete trading system by implementing a backtesting engine. Evaluate trading strategies based on sentiment signals from all three methods. Calculate risk-adjusted returns using Sharpe ratio and maximum drawdown. Draw final conclusions about which approach is best for different use cases.
 
-- [Week 5 Instructions](./Week%205/README.md)
+- [Week 5 Instructions](./Week5/README.md)
 
 
 ## Getting Started
