@@ -23,6 +23,32 @@ The project is organized into weekly modules, each building upon the previous on
 Introduction to Python, NumPy, Matplotlib, Pandas, and Seaborn. Essential libraries and concepts needed for the core project weeks.
 - [Week 0 Instructions](./Week%200/README.md)
 
+### Week 1: Lexicon-Based Sentiment Analysis
+Learn the fundamentals of sentiment analysis using lexicon-based approaches. Build a VADER sentiment analyzer and evaluate its performance on the Financial PhraseBank dataset. Understand evaluation metrics (F1-score, precision, recall) and preprocessing techniques for financial text.
+
+- [Week 1 Instructions](./Week%201/README.md)
+
+### Week 2: Supervised Learning for Sentiment Classification
+Implement machine learning models for sentiment classification. Learn feature extraction techniques (Bag-of-Words, TF-IDF) and train three different models (Logistic Regression, Naive Bayes, K-Nearest Neighbors). Perform hyperparameter tuning using GridSearchCV and cross-validation.
+
+- [Week 2 Instructions](./Week%202/README.md)
+
+### Week 3: Deep Learning & Transformer Models
+Transition to deep learning using pre-trained transformer models. Load FinBERT (a BERT model specifically trained on financial text), perform zero-shot inference, and fine-tune it on the Financial PhraseBank dataset. Compare all five approaches from Weeks 1-3.
+
+- [Week 3 Instructions](./Week%203/README.md)
+
+### Week 4: Real Data Integration & Stock Price Correlation
+Test your sentiment analysis systems on real financial data. Integrate stock price data from yfinance with financial news from Kaggle. Calculate sentiment-price correlations to validate whether lab results predict real market movements. Discover which sentiment method best predicts stock price changes.
+
+- [Week 4 Instructions](./Week%204/README.md)
+
+### Week 5: Backtesting Trading Strategies & Project Conclusion
+Build a complete trading system by implementing a backtesting engine. Evaluate trading strategies based on sentiment signals from all three methods. Calculate risk-adjusted returns using Sharpe ratio and maximum drawdown. Draw final conclusions about which approach is best for different use cases.
+
+- [Week 5 Instructions](./Week%205/README.md)
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -47,7 +73,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. Install required dependencies (as you progress through weeks):
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn nltk transformers torch
+pip install numpy pandas matplotlib seaborn scikit-learn nltk transformers torch yfinance
 ```
 
 ### How to Use This Repository
@@ -61,5 +87,6 @@ pip install numpy pandas matplotlib seaborn scikit-learn nltk transformers torch
    - Document your work in a personal GitHub repository
 
 3. Work with .ipynb files using either:
-   - Google Colab (no local setup required)
+   - Google Colab (no local setup required, includes free GPU for Week 3)
    - Jupyter Notebook (run `jupyter notebook` in your terminal)
+
